@@ -14,4 +14,31 @@
     <module>tcc-examples-server</module>
     <module>tcc-examples-dubbo</module>
   </modules>
+  
+      <properties>
+        <springframework.version>3.2.12.RELEASE</springframework.version>
+        <java.src.version>1.6</java.src.version>
+        <java.target.version>1.6</java.target.version>
+        <project.encoding>UTF-8</project.encoding>
+        <repo.internal.snapshots.url>http://repo1.maven.org/maven2</repo.internal.snapshots.url>
+        <repo.internal.releases.url>http://repo1.maven.org/maven2</repo.internal.releases.url>
+        <repo.proxy.url>http://repo1.maven.org/maven2</repo.proxy.url>
+        <repo.external.url>http://repo1.maven.org/maven2</repo.external.url>
+    </properties>
+    
+     <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.6.8</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>1.6.11</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
