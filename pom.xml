@@ -7,5 +7,11 @@
   <packaging>pom</packaging>
   <modules>
     <module>tcc-examples-core</module>
+    <module>tcc-examples-api</module>
+    <module>tcc-examples-spring</module>
+    <module>tcc-examples-test</module>
+    <module>tcc-examples-tutorial-sample</module>
+    <module>tcc-examples-server</module>
+    <module>tcc-examples-dubbo</module>
   </modules>
 </project>
